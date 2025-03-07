@@ -14,9 +14,7 @@ int main() {
 	long nums2 = Numbers::GenNums(1, 5);
 
 	long addNums = Add(nums1, nums2);
-
 	long subNums = Sub(nums1, nums2);
-
 
 
 
