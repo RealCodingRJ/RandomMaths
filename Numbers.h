@@ -1,18 +1,30 @@
-#pragma once
-
 #include <iostream>
 #include <time.h>
-#include <stdlib.h>
+#include <stdio.h>
 
 namespace Numbers {
 
-	long GenNums(long a, long b) {
 
-		srand(time(0));
+	int GenNums1(int a) 
+	{
+
+
+		srand(time(0) + 1);
+
+		return rand() % a + 8;
+
+	}
+
+	int GenNums2(int a) 
+	{
+
+
+		srand(time(0) + 1);
 
 		return rand() % a + 1;
 
 	}
+
 
 
 }
