@@ -4,6 +4,7 @@
 #include "Add.h";
 #include "Sub.h";
 #include "Mul.h"
+#include "Div.h"
 
 using namespace std;
 
@@ -21,6 +22,7 @@ int main() {
 	long addNums = Add::AddNums(nums1, nums2);
 	long subNums = Subs::Sub(nums1, nums2);
 	long mulNums = Mul::Mul(nums1, nums2);
+	long divNum = Div::DivNum(nums1, nums2);
 
 	std::cout << "What is: " << (nums1) << " "
 		<< op << " " << (nums2) << endl;
@@ -36,7 +38,8 @@ int main() {
 	}
 	else 
 	{
-		std::cout << "Answer is: " << addNums << "\n";
+		std::cout << nums1 << " + " << nums2 << " = " <<
+			addNums << "\n";
 	}
 
 	if (op == "-" && answer == subNums) {
@@ -46,7 +49,8 @@ int main() {
 
 	else
 	{
-		std::cout << "Answer is: " << subNums << "\n";
+		std::cout << nums1 << " - " << nums2 << " = " << 
+			subNums << "\n";
 	}
 
 
@@ -57,9 +61,20 @@ int main() {
 
 	else
 	{
-		std::cout << "Answer is: " << mulNums << "\n";
+		std::cout << nums1 << " * " << nums2 << " = " <<
+			mulNums << "\n";
 	}
 
+	if (op == "/" && answer == divNum) {
+		std::cout << nums1 << " / " << nums2 << " = " <<
+			divNum << "\n";
+	} 
+	else 
+	{
+
+		std::cout << nums1 << " / " << nums2 << " = " <<
+			divNum << "\n";
+	}
 
 	system("pause > 0");
 	return 0;

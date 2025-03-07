@@ -129,6 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Add.h" />
+    <ClInclude Include="Div.h" />
     <ClInclude Include="Mul.h" />
     <ClInclude Include="Numbers.h" />
     <ClInclude Include="Operators.h" />
@@ -136,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Add.cpp" />
+    <ClCompile Include="Div.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mul.cpp" />
     <ClCompile Include="Sub.cpp" />

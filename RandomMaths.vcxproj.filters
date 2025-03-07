@@ -28,6 +28,9 @@
     <Filter Include="Header Files\MFunctions\Mul">
       <UniqueIdentifier>{d79ef938-f805-49e7-bcf2-d8f167a0869d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\MFunctions\Div">
+      <UniqueIdentifier>{a06025b7-6d7a-4a39-a955-e6eb124fdcc1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Operators.h">
@@ -45,6 +48,9 @@
     <ClInclude Include="Mul.h">
       <Filter>Header Files\MFunctions\Mul</Filter>
     </ClInclude>
+    <ClInclude Include="Div.h">
+      <Filter>Header Files\MFunctions\Div</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -58,6 +64,9 @@
     </ClCompile>
     <ClCompile Include="Mul.cpp">
       <Filter>Header Files\MFunctions\Mul</Filter>
+    </ClCompile>
+    <ClCompile Include="Div.cpp">
+      <Filter>Header Files\MFunctions\Div</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
